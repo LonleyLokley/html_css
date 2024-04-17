@@ -2,20 +2,37 @@
     margin: 0;
     padding: 0;
 }
-.header {
+
+.header{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #f5fdd1;
+    
+}
+.header_text{
+    text-decoration: none;
+    
+}
+
+.titletext{
+    margin-left: 5px;
+    color: blueviolet;
+    background-color: antiquewhite;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: ;
+    gap: 10px;
+
+    flex-wrap: ;
+}
+.maintext{
+    margin-top: 50px;
     text-align: center;
-    margin-bottom:24px ;
 }
-
-.header2{
-margin-bottom: 16px;
-
-}
-
-.list{
-    margin-bottom: 32px;
-padding-left: 35px;
-margin-top: 5px;
-}
-
-
